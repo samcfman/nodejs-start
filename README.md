@@ -9,8 +9,8 @@ This application supports the [Getting Started with Node on Heroku](https://devc
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+$ git clone https://github.com/samcfman/nodejs-sman # or clone your own fork
+$ cd nodejs-sman
 $ npm install
 $ npm start
 ```
@@ -20,7 +20,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## Deploying to Heroku
 
 ```
-$ heroku create
+$ heroku create    
 $ git push heroku master
 $ heroku open
 ```
